@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スポンサー募集 | 札幌すごいAIまつり 2026夏</title>
-    <meta name="description" content="札幌すごいAIまつり 2026夏のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
+    <title>スポンサー募集 | 札幌すごいAIまつり 2026冬</title>
+    <meta name="description" content="札幌すごいAIまつり 2026冬のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
     <!-- OGP Tags -->
-    <meta property="og:title" content="スポンサー募集 | 札幌すごいAIまつり 2026夏">
-    <meta property="og:description" content="札幌すごいAIまつり 2026夏のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
+    <meta property="og:title" content="スポンサー募集 | 札幌すごいAIまつり 2026冬">
+    <meta property="og:description" content="札幌すごいAIまつり 2026冬のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://matsuri.sugoiai.org/sponsors.html">
-    <meta property="og:site_name" content="札幌すごいAIまつり 2026夏">
+    <meta property="og:site_name" content="札幌すごいAIまつり 2026冬">
     <meta property="og:image" content="https://matsuri.sugoiai.org/logo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="ja_JP">
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="スポンサー募集 | 札幌すごいAIまつり 2026夏">
-    <meta name="twitter:description" content="札幌すごいAIまつり 2026夏のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
+    <meta name="twitter:title" content="スポンサー募集 | 札幌すごいAIまつり 2026冬">
+    <meta name="twitter:description" content="札幌すごいAIまつり 2026冬のスポンサーを募集しています。一緒に札幌のAI文化を育てませんか？">
     <meta name="twitter:image" content="https://matsuri.sugoiai.org/logo.png">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
@@ -32,10 +32,20 @@
 
     <!-- Hero Section -->
     <section class="sponsors-hero">
-        <div class="lang-switcher">
-            <button type="button" class="lang-btn active" data-lang="ja">JP</button>
-            <button type="button" class="lang-btn" data-lang="en">EN</button>
-            <button type="button" class="lang-btn" data-lang="zh">CH</button>
+        <!-- 言語切替（heroに対して絶対配置：Languageボタン → プルダウン） -->
+        <div class="lang-switcher" id="langSwitcher">
+            <button type="button" class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" aria-controls="langMenu" aria-label="Language">
+                <svg class="lang-toggle-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span class="lang-toggle-label">Language</span>
+                <svg class="lang-toggle-chevron" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language">
+                <li role="none"><button type="button" class="lang-btn active" data-lang="ja" role="menuitemradio" aria-checked="true">日本語</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="en" role="menuitemradio" aria-checked="false">English</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="zh" role="menuitemradio" aria-checked="false">中文</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="fr" role="menuitemradio" aria-checked="false">Français</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="de" role="menuitemradio" aria-checked="false">Deutsch</button></li>
+            </ul>
         </div>
         <div class="container">
             <a href="index.html" class="back-link" data-i18n="sp.back">← トップページに戻る</a>
@@ -59,8 +69,8 @@
             </div>
             <div class="sp-past-grid">
                 <div class="sp-past-image-wrap">
-                    <p class="sp-past-label" data-i18n="sp.past_label1">事例1：札幌すごいAIまつり 2026冬</p>
-                    <img src="images/sponsors.png" alt="スポンサー企業・団体（札幌すごいAIまつり 2026冬）" class="sp-past-image">
+                    <p class="sp-past-label" data-i18n="sp.past_label1">事例1：札幌すごいAIまつり 2026夏</p>
+                    <img src="images/sponsors.png" alt="スポンサー企業・団体（札幌すごいAIまつり 2026夏）" class="sp-past-image">
                 </div>
                 <div class="sp-past-image-wrap">
                     <p class="sp-past-label" data-i18n="sp.past_label2">事例2：札幌すごいAIハッカソン 2026春</p>
@@ -182,7 +192,7 @@
             </div>
             <div class="plan-content">
                 <ul class="plan-notes-list">
-                    <li data-i18n="sp.note_date"><strong>日時</strong>：2026年8月29日(土) 9:30開場〜20:30頃</li>
+                    <li data-i18n="sp.note_date"><strong>日時</strong>：2026年12月5日(土) 9:30開場〜20:30頃</li>
                     <li data-i18n="sp.note_venue"><strong>場所</strong>：Deep Tech CORE SAPPORO</li>
                     <li data-i18n="sp.note_slots"><strong>プラチナ枠数</strong>：2枠限定（先着順）</li>
                     <li data-i18n="sp.note_award"><strong>賞の選定（プラチナのみ）</strong>：授与対象は審査員が選定するほか、貴社・貴団体の社員様が直接選ぶことも可能です。賞の名称は事前にご指定ください。</li>
@@ -221,8 +231,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3 data-i18n="footer.logo_title">札幌すごいAIまつり 2026夏</h3>
-                    <p data-i18n="footer.logo_sub">Sapporo Sugoi AI Festival 2026 Summer</p>
+                    <h3 data-i18n="footer.logo_title">札幌すごいAIまつり 2026冬</h3>
+                    <p data-i18n="footer.logo_sub">Sapporo Sugoi AI Festival 2026 Winter</p>
                 </div>
                 <div class="footer-links">
                     <a href="index.html" data-i18n="sp.footer_top">トップページ</a>
