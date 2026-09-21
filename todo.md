@@ -2,7 +2,7 @@
 
 ## プロジェクト概要
 - イベント「さっぽろすごいAIまつり」用のランディングページを作成
-- 2026年2月15日開催、会場：Deep Tech CORE SAPPORO
+- 2026年12月5日開催、会場：Deep Tech CORE SAPPORO
 
 ## 完了したタスク
 - [x] requirements.md の確認
